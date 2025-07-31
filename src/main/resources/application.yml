@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: rest-test
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rest_test
+    username: postgres
+    password: Artyomlbch213853
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show_sql: true
+        format_sql: true
